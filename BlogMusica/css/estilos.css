@@ -43,20 +43,34 @@ padding-top: 15%
   width: 90%;
 }
 
+@media (max-width:1024px){
+
+  .social img{
+    width: 100%;
+  }
+
+}
 @media (max-width:768px){
 
-.contenido{
-  width: 100%;
-}
+  .contenido{
+    width: 100%;
+  }
 
-.social img{
-  width: 100%;
-  margin:0;
-}
+  .posts p{
+    font-size: 1em;
+  }
 }
 
 @media (max-width:425px){
-  .contenido{
-    width:100%;
+
+  .logo{
+    width: 75%;
   }
-}
+
+  .social{
+    padding-top:2%;
+  }
+
+  .social img{
+    width: 70%;
+  }
