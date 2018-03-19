@@ -1,0 +1,65 @@
+body{
+  background: url("../image/fondo-parrilla.jpg") center top ;
+  width: 80%;
+  margin: 0 auto;
+  color: #F36635;
+}
+
+.header{
+  background: rgba(17, 15, 8, 0.9);
+  font-family: 'Oswald';
+  border-radius: 5px;
+  color: #F36635;
+  border: 2px solid #F36635;
+  margin:0 auto;
+}
+
+.contenido{
+  background: rgba(17, 15, 8, 0.9);
+  font-family: 'Oswald';
+  border-radius: 5px;
+  border: 2px solid #F36635;
+  margin: 1rem 0;
+}
+
+.busqueda{
+  margin: 1rem auto;
+}
+
+.nav-link{
+  width: 90%;
+  text-align: center;
+}
+
+.img-blog{
+  width: 95 %;
+}
+
+.historial-item{
+  background: white;
+  border-radius: 3px;
+  margin: 0.5rem auto;
+}
+
+p{
+  color: white;
+}
+
+label{
+  font-size: 1rem;
+  color:#F36635;
+}
+
+.user-img{
+  width: 70%;
+}
+
+.comment-box{
+  border: 2px solid #F36635;
+}
+
+@media max-width(768px) {
+  .user-img{
+    width: 90%;
+  }
+}

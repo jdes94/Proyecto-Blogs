@@ -26,6 +26,21 @@ padding-top: 15%
   width:80%;
 }
 
+.link-barra{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.link-barra:hover{
+  color:#1EEBD2;
+  text-decoration: none;
+}
+
+.link-activo{
+  text-decoration: underline;
+}
+
 .posts{
   background: url("../image/Fondo.jpg") fixed center;
 }
@@ -37,6 +52,14 @@ padding-top: 15%
 
 .posts p{
   font-size: 0.9em;
+}
+
+.img-post{
+  width:100%;
+}
+
+.user{
+  width: 75%;
 }
 
 .lista-busqueda{
@@ -58,6 +81,15 @@ padding-top: 15%
 
   .posts p{
     font-size: 1em;
+  }
+
+  .img-post{
+    width: 90%;
+  }
+
+  .user{
+    width: 100%;
+    padding-left: 2%;
   }
 }
 
